@@ -26,6 +26,10 @@ homebrew_installed_packages:
   - openssl
   - wget
   - dockutil
+  - openssl
+  - wget
+  - brew-cask
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -74,6 +78,9 @@ dockitems_to_persist:
   - name: Sublime
     path: /Applications/Sublime.app
     pos: 4
+  - name: WhatsApp
+    path: "/Applications/WhatsApp.app"
+    pos: 5
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
