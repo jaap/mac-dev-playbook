@@ -34,6 +34,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - caskroom/cask-drivers
   - homebrew/php
 
 homebrew_cask_appdir: /Applications
@@ -49,6 +50,7 @@ homebrew_cask_apps:
   - virtualbox
   - spotify
   - postman
+  - wacom-intuos-tablet
 
 dockitems_to_remove:
   - Launchpad
