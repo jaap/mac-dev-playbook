@@ -27,6 +27,8 @@ This is a work in progress, and is mostly a means for me to document my current 
 
 > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 
+> (Personal) Note: I ran into right issues with homebrew and eventually reinstalled homebrew entirely which seems to do the trick
+
 ### Running a specific set of tagged tasks
 
 You can filter which part of the provisioning process to run by specifying a set of tags using `ansible-playbook`'s `--tags` flag. The tags available are `dotfiles`, `homebrew`, `mas`, `extra-packages` and `osx`.

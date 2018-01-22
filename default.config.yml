@@ -38,7 +38,7 @@ homebrew_cask_apps:
   - dropbox
   - google-chrome
   - sequel-pro
-  - getcloudapp
+  - cloudapp
   - slack
   - sublime-text
   - transmit
